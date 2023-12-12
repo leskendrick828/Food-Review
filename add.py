@@ -1,6 +1,6 @@
 from app_copy import db, User, Posts, Comments, Ratings
 
-# Account
+
 user1 = User(username = "user1", name = "Connor", is_admin=False)
 user1.set_password("user1")
 user2 = User(username = "user2", name = "Cameron", is_admin=False)

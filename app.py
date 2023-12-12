@@ -10,7 +10,7 @@ from sqlalchemy import inspect
 
 app = Flask(__name__)
 
-# set optional bootswatch theme
+
 app.config['FLASK_ADMIN_SWATCH'] = 'cerulean'
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///example.sqlite"
 app.secret_key = 'super secret key'
